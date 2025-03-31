@@ -1,153 +1,142 @@
-﻿using System.Linq;
+﻿// Inventory Manager Console App
+// This application allows users to add, restock, update, and view product inventory.
+// It uses a Product class and a List<Product> to manage data.
+
+using System;
+using System.Collections.Generic;
+
+class Product
+{
+    public string Name { get; set; }
+    public decimal Price { get; set; }
+    public int Quantity { get; set; }
+}
 
 class InventoryManager
 {
-    static List<string[]> productNamePrice = new List<string[]>();
-    static List<int> productInventory = new List<int>();
+    static List<Product> inventory = new List<Product>();
 
     static void Main(string[] args)
     {
+        // Main menu loop to handle user choices
         while (true)
         {
-            Console.WriteLine("Welcome to Cinco's Inventory Manager System.");
-            Console.WriteLine("1. Add Product and Price");
-            Console.WriteLine("2. Add Inventory");
-            Console.WriteLine("3. Manage Inventory");
-            Console.WriteLine("4. View All Prodcut Info ");
-            Console.WriteLine("5. Exit Program");
+            Console.WriteLine("\nWelcome to Cinco's Inventory Manager System.");
+            Console.WriteLine("1. Add Product");
+            Console.WriteLine("2. Restock Inventory");
+            Console.WriteLine("3. Update Inventory");
+            Console.WriteLine("4. View All Products");
+            Console.WriteLine("5. Exit");
 
             string choice = Console.ReadLine();
 
             switch (choice)
             {
                 case "1":
-                    AddProductAndPrice();
+                    AddProduct();
                     break;
-
                 case "2":
-                    AddInventory();
+                    RestockInventory();
                     break;
-
                 case "3":
-                    ManageInventory();
+                    UpdateInventory();
                     break;
-
                 case "4":
                     ViewInventory();
                     break;
-
                 case "5":
-                    Environment.Exit(1);
-                    break;
-
+                    return;
                 default:
-                    Console.WriteLine("Invalid Choice");
+                    Console.WriteLine("Invalid choice. Please try again.");
                     break;
             }
         }
     }
 
-    static void AddProductAndPrice()
+    static void AddProduct()
     {
-        Console.WriteLine("Enter Product:");
-        string product = Console.ReadLine();
-        Console.WriteLine("Enter Price of product:");
-        string input = Console.ReadLine();
+        // Adds a new product to the inventory with default quantity 0
+        Console.Write("Enter product name: ");
+        string name = Console.ReadLine();
+
+        Console.Write("Enter product price: ");
         decimal price;
-
-        while (!decimal.TryParse(input, out price))
+        while (!decimal.TryParse(Console.ReadLine(), out price))
         {
-            Console.WriteLine("Invalid input. Please enter a valid decimal value for the price:");
-            input = Console.ReadLine();
+            Console.Write("Invalid price. Enter a valid number: ");
         }
 
-        productNamePrice.Add(new string[] { product, price.ToString() });
-        productInventory.Add(0); // Initialize inventory to 0 for the new product
-        Console.WriteLine("Information added to inventory");
+        inventory.Add(new Product { Name = name, Price = price, Quantity = 0 });
+        Console.WriteLine("Product added with initial quantity 0.");
     }
 
-    static void AddInventory()
+    static void RestockInventory()
     {
-        Console.WriteLine("Enter product name:");
-        string productName = Console.ReadLine();
-        int productIndex = productNamePrice.FindIndex(p => p[0].Equals(productName, StringComparison.OrdinalIgnoreCase));
+        // Finds a product by name and adds quantity to its inventory
+        Console.Write("Enter product name to restock: ");
+        string name = Console.ReadLine();
 
-        if (productIndex != -1)
+        Console.Write("Enter quantity to add: ");
+        int quantity;
+        while (!int.TryParse(Console.ReadLine(), out quantity))
         {
-            Console.WriteLine("Enter amount of product in inventory:");
-            int inventory = Convert.ToInt32(Console.ReadLine());
-            productInventory[productIndex] += inventory;
-            Console.WriteLine("Amount added to product's inventory");
+            Console.Write("Invalid quantity. Enter a valid integer: ");
         }
-        else
+
+        for (int i = 0; i < inventory.Count; i++)
         {
-            Console.WriteLine("Product not found in the system.");
+            if (inventory[i].Name.Equals(name, StringComparison.OrdinalIgnoreCase))
+            {
+                inventory[i].Quantity += quantity;
+                Console.WriteLine($"{quantity} units added to {name}.");
+                return;
+            }
         }
+
+        Console.WriteLine("Product not found.");
     }
 
-    static void ManageInventory()
+    static void UpdateInventory()
     {
-        while (true)
+        // Allows user to set a new quantity for a specific product
+        Console.Write("Enter product name to update: ");
+        string name = Console.ReadLine();
+
+        for (int i = 0; i < inventory.Count; i++)
         {
-            Console.WriteLine("Please enter product name and we'll see if it's in our system:");
-            string productName = Console.ReadLine();
-
-            if (string.IsNullOrEmpty(productName))
+            if (inventory[i].Name.Equals(name, StringComparison.OrdinalIgnoreCase))
             {
-                Console.WriteLine("Invalid input. Please enter a valid product name.");
-                continue;
-            }
+                Console.WriteLine($"Current quantity: {inventory[i].Quantity}");
+                Console.Write("Enter new quantity: ");
 
-            int productIndex = productNamePrice.FindIndex(p => p[0].Equals(productName, StringComparison.OrdinalIgnoreCase));
-
-            if (productIndex != -1)
-            {
-                Console.WriteLine($"{productName} found in the system.");
-                Console.WriteLine($"Product Inventory: {productInventory[productIndex]}");
-                Console.WriteLine($"Enter the new inventory for the product: {productName}");
-
-                int newInventory;
-                while (!int.TryParse(Console.ReadLine(), out newInventory))
+                int newQty;
+                while (!int.TryParse(Console.ReadLine(), out newQty))
                 {
-                    Console.WriteLine("Invalid input. Please enter a valid integer value for the inventory:");
+                    Console.Write("Invalid input. Enter a valid integer: ");
                 }
 
-                productInventory[productIndex] = newInventory;
-                Console.WriteLine($"Inventory of {newInventory} set for {productName}.");
-                break;
-            }
-            else
-            {
-                Console.WriteLine("Product not found. Would you like to try again or exit to the main menu?");
-                Console.WriteLine("1. Try Again");
-                Console.WriteLine("2. Exit to Main Menu");
-
-                string choice = Console.ReadLine();
-
-                switch (choice)
-                {
-                    case "1":
-                        Console.WriteLine("Replace this with a method that takes me back to the ManageInventory method");
-                        continue;
-
-                    case "2":
-                        break;
-
-                    default:
-                        Console.WriteLine("Invalid Entry");
-                        break;
-                }
-
-                    
+                inventory[i].Quantity = newQty;
+                Console.WriteLine($"Inventory for {name} updated to {newQty}.");
+                return;
             }
         }
+
+        Console.WriteLine("Product not found.");
     }
 
     static void ViewInventory()
     {
-        for (int i = 0; i < productNamePrice.Count; i++)
+        // Displays all products with their name, price, and quantity
+        if (inventory.Count == 0)
         {
-            Console.WriteLine($"Product: {productNamePrice[i][0]} || Price: {productNamePrice[i][1]} || Inventory: {productInventory[i]}");
+            Console.WriteLine("Inventory is empty.");
+            return;
+        }
+
+        Console.WriteLine("\nCurrent Inventory:");
+        foreach (var product in inventory)
+        {
+            Console.WriteLine($"Product: {product.Name}, Price: {product.Price:C}, Quantity: {product.Quantity}");
         }
     }
 }
