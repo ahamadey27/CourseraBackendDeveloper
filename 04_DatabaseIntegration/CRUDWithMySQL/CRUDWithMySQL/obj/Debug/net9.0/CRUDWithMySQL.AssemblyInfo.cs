@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CRUDWithMySQL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb01a050c6c4e3f83d65a7ae98c14ec1a76b9d22")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+abb8d911b61967b10cf8c614dfa6354f2d773cbe")]
 [assembly: System.Reflection.AssemblyProductAttribute("CRUDWithMySQL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CRUDWithMySQL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
