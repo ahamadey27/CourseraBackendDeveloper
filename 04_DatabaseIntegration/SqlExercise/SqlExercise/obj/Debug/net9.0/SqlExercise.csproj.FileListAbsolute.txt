@@ -1,0 +1,15 @@
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\04_DatabaseIntegration\SqlExercise\SqlExercise\bin\Debug\net9.0\SqlExercise.exe
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\04_DatabaseIntegration\SqlExercise\SqlExercise\bin\Debug\net9.0\SqlExercise.deps.json
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\04_DatabaseIntegration\SqlExercise\SqlExercise\bin\Debug\net9.0\SqlExercise.runtimeconfig.json
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\04_DatabaseIntegration\SqlExercise\SqlExercise\bin\Debug\net9.0\SqlExercise.dll
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\04_DatabaseIntegration\SqlExercise\SqlExercise\bin\Debug\net9.0\SqlExercise.pdb
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\04_DatabaseIntegration\SqlExercise\SqlExercise\obj\Debug\net9.0\SqlExercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\04_DatabaseIntegration\SqlExercise\SqlExercise\obj\Debug\net9.0\SqlExercise.AssemblyInfoInputs.cache
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\04_DatabaseIntegration\SqlExercise\SqlExercise\obj\Debug\net9.0\SqlExercise.AssemblyInfo.cs
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\04_DatabaseIntegration\SqlExercise\SqlExercise\obj\Debug\net9.0\SqlExercise.csproj.CoreCompileInputs.cache
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\04_DatabaseIntegration\SqlExercise\SqlExercise\obj\Debug\net9.0\SqlExercise.sourcelink.json
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\04_DatabaseIntegration\SqlExercise\SqlExercise\obj\Debug\net9.0\SqlExercise.dll
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\04_DatabaseIntegration\SqlExercise\SqlExercise\obj\Debug\net9.0\refint\SqlExercise.dll
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\04_DatabaseIntegration\SqlExercise\SqlExercise\obj\Debug\net9.0\SqlExercise.pdb
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\04_DatabaseIntegration\SqlExercise\SqlExercise\obj\Debug\net9.0\SqlExercise.genruntimeconfig.cache
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\04_DatabaseIntegration\SqlExercise\SqlExercise\obj\Debug\net9.0\ref\SqlExercise.dll
