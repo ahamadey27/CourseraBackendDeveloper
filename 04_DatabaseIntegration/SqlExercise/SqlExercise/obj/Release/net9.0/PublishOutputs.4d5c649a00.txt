@@ -1,0 +1,5 @@
+C:\Users\hamad\Documents\GitHub\SamuraiMovieDB\SamuraiMovieDB\publish\SqlExercise.exe
+C:\Users\hamad\Documents\GitHub\SamuraiMovieDB\SamuraiMovieDB\publish\SqlExercise.dll
+C:\Users\hamad\Documents\GitHub\SamuraiMovieDB\SamuraiMovieDB\publish\SqlExercise.deps.json
+C:\Users\hamad\Documents\GitHub\SamuraiMovieDB\SamuraiMovieDB\publish\SqlExercise.runtimeconfig.json
+C:\Users\hamad\Documents\GitHub\SamuraiMovieDB\SamuraiMovieDB\publish\SqlExercise.pdb
