@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SqlExercise")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d67ffd7a33865026f48f2b3ce99588c4a4070b7e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2362b19369ecd56381dfec90d712f6b2a5e1c0ae")]
 [assembly: System.Reflection.AssemblyProductAttribute("SqlExercise")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SqlExercise")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

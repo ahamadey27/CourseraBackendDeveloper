@@ -1,0 +1,5 @@
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\04_DatabaseIntegration\SqlExercise\SqlExercise\bin\Release\net9.0\publish\SqlExercise.exe
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\04_DatabaseIntegration\SqlExercise\SqlExercise\bin\Release\net9.0\publish\SqlExercise.dll
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\04_DatabaseIntegration\SqlExercise\SqlExercise\bin\Release\net9.0\publish\SqlExercise.deps.json
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\04_DatabaseIntegration\SqlExercise\SqlExercise\bin\Release\net9.0\publish\SqlExercise.runtimeconfig.json
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\04_DatabaseIntegration\SqlExercise\SqlExercise\bin\Release\net9.0\publish\SqlExercise.pdb
