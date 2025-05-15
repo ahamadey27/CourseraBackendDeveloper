@@ -1,0 +1,15 @@
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\07_Data_Algorithms\SortingAlgorithmsApp\SortingAlgorithmsApp\bin\Debug\net9.0\SortingAlgorithmsApp.exe
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\07_Data_Algorithms\SortingAlgorithmsApp\SortingAlgorithmsApp\bin\Debug\net9.0\SortingAlgorithmsApp.deps.json
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\07_Data_Algorithms\SortingAlgorithmsApp\SortingAlgorithmsApp\bin\Debug\net9.0\SortingAlgorithmsApp.runtimeconfig.json
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\07_Data_Algorithms\SortingAlgorithmsApp\SortingAlgorithmsApp\bin\Debug\net9.0\SortingAlgorithmsApp.dll
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\07_Data_Algorithms\SortingAlgorithmsApp\SortingAlgorithmsApp\bin\Debug\net9.0\SortingAlgorithmsApp.pdb
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\07_Data_Algorithms\SortingAlgorithmsApp\SortingAlgorithmsApp\obj\Debug\net9.0\SortingAlgorithmsApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\07_Data_Algorithms\SortingAlgorithmsApp\SortingAlgorithmsApp\obj\Debug\net9.0\SortingAlgorithmsApp.AssemblyInfoInputs.cache
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\07_Data_Algorithms\SortingAlgorithmsApp\SortingAlgorithmsApp\obj\Debug\net9.0\SortingAlgorithmsApp.AssemblyInfo.cs
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\07_Data_Algorithms\SortingAlgorithmsApp\SortingAlgorithmsApp\obj\Debug\net9.0\SortingAlgorithmsApp.csproj.CoreCompileInputs.cache
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\07_Data_Algorithms\SortingAlgorithmsApp\SortingAlgorithmsApp\obj\Debug\net9.0\SortingAlgorithmsApp.sourcelink.json
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\07_Data_Algorithms\SortingAlgorithmsApp\SortingAlgorithmsApp\obj\Debug\net9.0\SortingAlgorithmsApp.dll
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\07_Data_Algorithms\SortingAlgorithmsApp\SortingAlgorithmsApp\obj\Debug\net9.0\refint\SortingAlgorithmsApp.dll
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\07_Data_Algorithms\SortingAlgorithmsApp\SortingAlgorithmsApp\obj\Debug\net9.0\SortingAlgorithmsApp.pdb
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\07_Data_Algorithms\SortingAlgorithmsApp\SortingAlgorithmsApp\obj\Debug\net9.0\SortingAlgorithmsApp.genruntimeconfig.cache
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\07_Data_Algorithms\SortingAlgorithmsApp\SortingAlgorithmsApp\obj\Debug\net9.0\ref\SortingAlgorithmsApp.dll
