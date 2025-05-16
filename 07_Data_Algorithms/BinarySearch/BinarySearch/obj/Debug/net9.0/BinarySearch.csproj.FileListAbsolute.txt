@@ -1,0 +1,15 @@
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\07_Data_Algorithms\BinarySearch\BinarySearch\bin\Debug\net9.0\BinarySearch.exe
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\07_Data_Algorithms\BinarySearch\BinarySearch\bin\Debug\net9.0\BinarySearch.deps.json
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\07_Data_Algorithms\BinarySearch\BinarySearch\bin\Debug\net9.0\BinarySearch.runtimeconfig.json
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\07_Data_Algorithms\BinarySearch\BinarySearch\bin\Debug\net9.0\BinarySearch.dll
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\07_Data_Algorithms\BinarySearch\BinarySearch\bin\Debug\net9.0\BinarySearch.pdb
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\07_Data_Algorithms\BinarySearch\BinarySearch\obj\Debug\net9.0\BinarySearch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\07_Data_Algorithms\BinarySearch\BinarySearch\obj\Debug\net9.0\BinarySearch.AssemblyInfoInputs.cache
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\07_Data_Algorithms\BinarySearch\BinarySearch\obj\Debug\net9.0\BinarySearch.AssemblyInfo.cs
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\07_Data_Algorithms\BinarySearch\BinarySearch\obj\Debug\net9.0\BinarySearch.csproj.CoreCompileInputs.cache
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\07_Data_Algorithms\BinarySearch\BinarySearch\obj\Debug\net9.0\BinarySearch.sourcelink.json
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\07_Data_Algorithms\BinarySearch\BinarySearch\obj\Debug\net9.0\BinarySearch.dll
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\07_Data_Algorithms\BinarySearch\BinarySearch\obj\Debug\net9.0\refint\BinarySearch.dll
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\07_Data_Algorithms\BinarySearch\BinarySearch\obj\Debug\net9.0\BinarySearch.pdb
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\07_Data_Algorithms\BinarySearch\BinarySearch\obj\Debug\net9.0\BinarySearch.genruntimeconfig.cache
+C:\Users\hamad\Documents\GitHub\CourseraBackendDeveloper\07_Data_Algorithms\BinarySearch\BinarySearch\obj\Debug\net9.0\ref\BinarySearch.dll
